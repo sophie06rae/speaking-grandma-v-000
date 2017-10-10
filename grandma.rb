@@ -13,6 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(speak)
+speak=gets.chomp
 if speak.upcase
 puts "NO, NOT SINCE 1938!"
 else
