@@ -14,7 +14,7 @@
 
 def speak_to_grandma(speak)
 
-if speak == speak.upcase
+if speak == String.upcase
 puts "NO, NOT SINCE 1938!"
 else
 puts "HUH?! SPEAK UP, SONNY!"
